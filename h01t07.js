@@ -15,3 +15,15 @@ const grades = points.map((x) => {
         return 0
     }
 });
+
+const enough_points = points.filter((point) => {
+    return point >= 40;
+});
+
+
+
+const sum = points.reduce((sum, point) => {
+    return sum + point;
+});
+
+const average = () => (sum / points.length);
