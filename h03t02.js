@@ -6,4 +6,11 @@ const musician = {
     }
 };
 
-let { name } = musician;
+// let { name: nameOfArtist, instrument: instrumentOfArtist } =
+//     musician;
+
+// let { instrument : {type : instrumentTypeOfArtist} } = 
+//     musician;
+
+let { instrument : { make : instrumentMakeOfArtist = 'unknown' }} = 
+    musician;
