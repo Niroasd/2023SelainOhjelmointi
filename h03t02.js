@@ -1,10 +1,9 @@
-
-const convertToMins = (hoursInHundreds) => {
-
-    const fullHours = String(hoursInHundreds).substring(0, hoursInHundreds.indexOf('.'));
-
-    const minutes = String(hoursInHundreds).substring(hoursInHundreds.indexOf('.') + 1, )
-
-    return fullHours + ":" + minutes * 0.60;
-
+const musician = {
+    name : 'Sting',
+    realName : 'Gordon Matthew Thomas Sumner',
+    instrument : {
+        type : 'bass'
+    }
 };
+
+let { name } = musician;
