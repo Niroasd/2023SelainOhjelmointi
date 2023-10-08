@@ -12,3 +12,4 @@ function isLeapYearShorter(year) {
 }
 
 let arr = ['asd', 2, ['a', 'b']];
+

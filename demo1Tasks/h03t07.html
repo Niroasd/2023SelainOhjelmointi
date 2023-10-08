@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>oke</title>
+    <script src="h03t07.js"></script>
+</head>
+<body>
+    <p id="result"></p>
+    <p id="result2"></p>
+    <script>
+        let matti = new Person('Matti', 21);
+        let newZip = new ZipValidator();
+
+        const superhero = new SuperHero('Katto Kassinen', 15, 'Lihapulla Sade');
+        
+        const superhero2 = new SuperHero('Kissa kala', 111, 'kala ruoka säde');
+        document.getElementById("result").innerHTML = superhero.useSuperPower();
+        document.getElementById("result2").innerHTML = superhero2.useSuperPower();
+    </script>
+</body>
+</html>
