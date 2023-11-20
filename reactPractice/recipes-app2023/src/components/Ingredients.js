@@ -1,3 +1,5 @@
+import React from "react";
+
 const Ingredients = ({ data = [] }) => (
     <ul className="ingredients">
       {data.map((ingredient, i) => (
@@ -5,3 +7,5 @@ const Ingredients = ({ data = [] }) => (
       ))}
     </ul>
   );
+
+export default Ingredients;

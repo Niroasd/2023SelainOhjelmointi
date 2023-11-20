@@ -1,3 +1,5 @@
+import React from "react";
+
 const Instructions = ({ data = [] }) => (
     <section className="instructions">
       <h2>Cooking Instructions</h2>
@@ -6,3 +8,5 @@ const Instructions = ({ data = [] }) => (
       ))}
     </section>
   );
+
+export default Instructions;
